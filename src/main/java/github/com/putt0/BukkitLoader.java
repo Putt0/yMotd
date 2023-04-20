@@ -18,6 +18,7 @@ public class BukkitLoader extends BukkitMain {
     @Override
     public void onEnable() {
         enableService();
+        enableListener();
     }
 
     @Override
