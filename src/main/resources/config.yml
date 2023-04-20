@@ -1,0 +1,31 @@
+# Hi, here you can configure the TYPE and STYLE of your motd, let's go?
+# First step, you must define the TYPE of your motd!
+
+# Set to ('false') for motd to be random | [ only 4 random motd's ]
+
+# Set to ('true') for motd to be fixed | [ only 1 motd ]
+
+Type:
+  fixed: 'false'
+
+# After setting the TYPE of your motd
+# Let's configure the maximum number of players!
+
+MaxPlayers: 2023
+
+# After setting the MaxPlayers of your motd
+# Let's configure the text!
+
+Random:
+  Motd-center: '             &b&lyMOTD &f| &7Official Plugin'
+  Motd-1: '          &d-> &eCome play at: yMotd.net'
+  Motd-2: '          &6-> &dCome have fun with us'
+  Motd-3: '         &b-> &aStore: https://yMotd.net/'
+  Motd-4: '       &bDiscord: https://discord.gg/yMotd/'
+
+Fix:
+  Motd-center: '             &b&lyMOTD &f| &7Official Plugin'
+  Motd-1: '            &bDeveloped by: yReinaldy_'
+
+# End, Thanks for using yMotd
+# Plugin developed by: Reinaldy Oliveira
