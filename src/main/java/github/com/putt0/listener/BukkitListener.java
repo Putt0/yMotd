@@ -30,10 +30,10 @@ public class BukkitListener implements Listener {
             } else if (random == 3) {
                 serverListPingEvent.setMotd(BukkitLoader.getPlugin().getConfig().getString("Random.Motd-center").replace("&", "§")
                         + "\n" + BukkitLoader.getPlugin().getConfig().getString("Random.Motd-4").replace("&", "§"));
-            } else {
-                serverListPingEvent.setMotd(BukkitLoader.getPlugin().getConfig().getString("Fix.Motd-center").replace("&", "§")
-                        + "\n" + BukkitLoader.getPlugin().getConfig().getString("Fix.Motd-1").replace("&", "§"));
             }
+        } else {
+            serverListPingEvent.setMotd(BukkitLoader.getPlugin().getConfig().getString("Fix.Motd-center").replace("&", "§")
+                    + "\n" + BukkitLoader.getPlugin().getConfig().getString("Fix.Motd-1").replace("&", "§"));
         }
     }
 }
